@@ -1,6 +1,10 @@
 # AMov_TP_Reversi_Grupo35
 Reversi app game
 
+![Screenshot_1](https://github.com/pmspedrosa/AMov_TP_Reversi_Grupo35/assets/76016818/a550811a-c9c0-474d-9da1-2128ca200fa9)
+![Screenshot_2](https://github.com/pmspedrosa/AMov_TP_Reversi_Grupo35/assets/76016818/b29ffb1a-1c74-45af-8d1f-ed667b513c0b)
+
+
 ## Introduction
 This project is a mobile implementation of the Reversi/Othello game, developed as part of the Mobile Architectures course. It aims to provide a versatile and engaging gaming experience for users.
 
