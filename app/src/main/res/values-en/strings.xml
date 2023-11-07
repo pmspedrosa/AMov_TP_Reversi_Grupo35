@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AMov_TP_Reversi_Grupo35</string>
+    <string name="modo_1">Mode 1</string>
+    <string name="modo_2">Mode 2</string>
+    <string name="modo_3">Mode 3</string>
+    <string name="perfil">Profile</string>
+    <string name="creditos">About</string>
+    <string name="regras">Rules</string>
+    <string name="preto">Black</string>
+    <string name="branco">White</string>
+    <string name="azul">Blue</string>
+    <string name="dica">Hint</string>
+    <string name="bomba">Bomb</string>
+    <string name="troca">Swap</string>
+    <string name="nome">Username:</string>
+    <string name="melhorPontuacao">TOP Score:</string>
+    <string name="novoJogo">New Game</string>
+    <string name="introduza_password" >Password</string>
+    <string name="password" >Password:</string>
+    <string name="esqueceu_password" >Forgot Password?</string>
+    <string name="registar" >Register</string>
+    <string name="logout_questao" >Do you really want to LogOut?</string>
+    <string name="username" >Username</string>
+    <string name="introduza_email" >Enter Email</string>
+    <string name="ja_tem_login" >Already have an Account? Login</string>
+    <string name="ainda_nao_tem_conta" >Don\'t have an account yet? Register</string>
+    <string name="porfavor_escreva_username">Please enter username.</string>
+    <string name="porfavor_escreva_email">Please enter email.</string>
+    <string name="porfavor_escreva_password">Please enter password.</string>
+    <string name="registado_sucesso">Registered Successfully</string>
+    <string name="login_sucesso">Logged in Successfully</string>
+    <string name="ainda_nao_esta_logadp">Not logged yet!</string>
+    <string name="txt_esqueceupass">Enter your registered email address bellow. We will send you an email to reset your password.</string>
+    <string name="enviar">Submit</string>
+    <string name="enviarsucesso">Email sent successfully!</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="quermesmosair">Do you really want to leave?</string>
+    <string name="menuprincipal">Main menu</string>
+
+
+
+
+    <string name="principio" >The game starts with four pieces placed in the center of the board.
+         shaped like a square, two with the white side facing up and two with the side
+         black. The player who makes the first move is chosen randomly.
+    </string>
+    <string name="colocar_pecas" >Place Pieces</string>
+    <string name="p2" >In order for a player to place a piece on a cell off the board, there must be at
+        least one straight line (horizontal, vertical or diagonal) without empty spaces between the position
+        the player wants and another piece of his color,
+        and that there are one or more opponent\'s pieces between them.
+    </string>
+    <string name="p3" >If there are no valid moves the player must pass the turn.</string>
+    <string name="p4" >Once a player makes a valid move, all opponent\'s pieces that are in a straight line (horizontal, vertical or diagonal)
+        between the newly placed piece and any other player\'s pieces,
+        are turned over and become that player\'s color.
+    </string>
+    <string name="jogadas_especiais" >Special plays</string>
+    <string name="pjogadas_especiais" >There are two special moves that the player can use only once during the game. These special moves are unlocked after each player has made 4 moves.</string>
+    <!--- bomba -->
+    <string name="pbomba" >A player can use the bomb on his own piece to destroy all the pieces directly.
+         adjacent to it.</string>
+    <!--- troca -->
+    <string name="ptroca">A player can use the exchange, offering two of his pieces to the opponent and then
+         choose an opponent\'s piece for yourself.</string>
+
+
+
+    <string name="fim_partida" >Game Over</string>
+    <string name="pfim" >The game ends when none of the players can make moves, that is, when
+         all squares are occupied or all pieces on the board are the same color flipped
+         up.
+         If a player has more pieces than the opponent, he wins.
+         If both players have the same amount of pieces, the game ends in a draw.
+    </string>
+
+    <!--- dicas -->
+    <string name="pdicas" >A player can remove the Hints if they wish by clicking on the Hints button.</string>
+
+
+
+
+
+    <string name="sem_jogada_possivel">\"There are no possible moves. \nPress the button to skip your turn.\"</string>
+    <string name="passar_vez">Skip turn</string>
+
+
+    <string name="creditos_texto1" >Work done by:</string>
+
+    <string name="criar_jogo">Create game</string>
+    <string name="juntar_jogo">Join game</string>
+    <string name="msg_modo2">Online multiplayer game \n2 Players</string>
+    <string name="msg_modo3">Online multiplayer game \n3 Players</string>
+    <string name="msg_ip_address">"IP Address: %s "</string>
+    <string name="server_mode">Server Mode</string>
+    <string name="client_mode">Client Mode</string>
+    <string name="ask_ip">Server IP Address</string>
+    <string name="button_connect">Connect</string>
+    <string name="error_address">Address not recognized</string>
+    <string name="btn_emulator">Connect to emulator</string>
+    <string name="button_cancel">Cancel</string>
+
+
+
+</resources>

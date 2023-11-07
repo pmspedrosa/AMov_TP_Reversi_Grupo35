@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "434114163254",
+    "project_id": "tp-reversi-grupo35",
+    "storage_bucket": "tp-reversi-grupo35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:434114163254:android:76692fe83d6eeda2809e97",
+        "android_client_info": {
+          "package_name": "pt.isec.a2017012017.amov_tp_reversi_grupo35"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "434114163254-oba7gc5eodqdqdjnj2l901tr7ka4erf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw2eoIfmMqap06cYxFgfFhij-slUIfHik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "434114163254-oba7gc5eodqdqdjnj2l901tr7ka4erf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

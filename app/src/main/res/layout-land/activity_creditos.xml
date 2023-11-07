@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="20dp">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/creditos"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/baloo2_bold"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:background="@drawable/logo_isec"
+                android:layout_gravity="center">
+
+            </ImageView>
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ISEC"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:fontFamily="@font/baloo2_bold"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="2dp"
+                android:fontFamily="@font/baloo2_bold"
+                android:gravity="center"
+                android:text="@string/informatica"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@color/dark_green"
+            >
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/creditos_texto1"
+                    android:textSize="20sp"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:layout_marginLeft="5dp"
+                    />
+
+                <TextView
+                    android:layout_marginVertical="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nome1"
+                    android:textSize="17sp"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                    android:layout_marginLeft="5dp"
+
+                    /><TextView
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nome2"
+                android:textSize="17sp"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/baloo2_bold"
+                android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                android:layout_marginLeft="5dp"
+
+                /><TextView
+                android:layout_marginVertical="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nome3"
+                android:textSize="17sp"
+                android:gravity="left"
+                android:textColor="@color/white"
+                android:fontFamily="@font/baloo2_bold"
+                android:drawableLeft="@android:drawable/ic_menu_myplaces"
+                android:layout_marginLeft="5dp"
+
+                />
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

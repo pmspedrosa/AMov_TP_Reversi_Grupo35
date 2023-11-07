@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    android:background="@color/green"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:layout_marginTop="35sp"
+        android:id="@+id/fr_imgPerfil"
+        android:layout_margin="1dp"
+        android:padding="5sp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/iv_imagem_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/img_nperfil"
+            ></ImageView>
+
+        <ImageButton
+            android:id="@+id/ibtn_mudar_imagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/ic_menu_camera"
+            android:layout_gravity="bottom|right"></ImageButton>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/txt_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo2_bold"
+            android:gravity="center"
+            android:text="@string/nome"
+            android:paddingVertical="2sp"
+            android:textSize="20dp"
+            android:background="@color/dark_green"
+            android:textColor="@color/white"
+            android:drawableEnd="@drawable/ic_profile_white"
+            android:paddingHorizontal="25dp"
+            ></TextView>
+
+        <EditText
+            android:id="@+id/et_nomePerfil"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="2dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="NotAName"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:drawableEnd="@android:drawable/ic_menu_edit"
+            >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/txt_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baloo2_bold"
+            android:gravity="center"
+            android:text="@string/email"
+            android:textSize="20dp"
+            android:paddingVertical="8sp"
+            android:background="@color/dark_green"
+            android:textColor="@color/white"
+            android:drawableEnd="@android:drawable/ic_dialog_email"
+            android:paddingHorizontal="25dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/et_email"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:text="email@email.com"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            >
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/txt_TopScore"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="27dp"
+            android:fontFamily="@font/baloo2_bold"
+            android:text="@string/melhorPontuacao"
+            android:layout_marginTop="15dp"
+            android:background="@color/dark_green"
+            android:textColor="@color/white"
+            android:paddingVertical="2sp"
+            android:drawableEnd="@android:drawable/btn_star_big_on"
+            android:paddingHorizontal="35dp"
+
+            ></TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            >
+            <Button
+                android:id="@+id/btn_1v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modo2 (1v1)"
+                android:layout_margin="5dp"
+                android:onClick="onClick_btn1v1"
+                ></Button>
+            <Button
+                android:id="@+id/btn_1v1v1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modo3 (1v1v1)"
+                android:layout_margin="5dp"
+                android:onClick="onClick_btn1v1v1"
+                ></Button>
+
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp"
+                android:background="@color/black"
+                >
+
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/dark_green"
+                    android:layout_marginTop="2dp"
+                    android:text="1"
+                   ></TextView>
+                <TextView
+                    android:id="@+id/txt_S1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/grey"
+
+                    android:text="S1:"
+                    >
+                </TextView>
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/dark_green1"
+                    android:layout_marginTop="2dp"
+                    android:text="2"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt_S2"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:textColor="@color/white"
+                    android:background="@color/grey"
+
+                    android:text="S2:"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/dark_green"
+                    android:layout_marginTop="2dp"
+
+                    android:text="3"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt_S3"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/grey"
+
+                    android:text="S3:"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/dark_green1"
+                    android:layout_marginTop="2dp"
+
+                    android:text="4"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt_S4"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/grey"
+
+                    android:text="S4:"
+                    android:textColor="@color/white"
+                    />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/dark_green"
+                    android:layout_marginTop="2dp"
+
+                    android:text="5"
+                    ></TextView>
+                <TextView
+                    android:id="@+id/txt_S5"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="27dp"
+                    android:fontFamily="@font/baloo2_bold"
+                    android:background="@color/grey"
+
+                    android:text="S5:"
+                    android:textColor="@color/white"
+                    android:layout_marginBottom="2dp"
+                    />
+            </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

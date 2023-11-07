@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_creditos.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_esqueceupass.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_gamemode1e2.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_login.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_main.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_perfil.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_register.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_regras.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/dialog_fim_modo1e2.xml" value="0.31040564373897706" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_about.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_creditos.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_esqueceupass.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gamemode1_2.xml" value="0.25" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gamemode1e2.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gamemode3.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gametype1_2.xml" value="0.17806484295845998" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gametype3.xml" value="0.17806484295845998" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_perfil.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_register.xml" value="0.5" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_regras.xml" value="0.24072948328267477" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/dialog_fim_modo1e2.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/menu_jogo.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/menu/game_menu.xml" value="0.33" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/menu/main_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/menu/menu_game.xml" value="0.1" />
+        <entry key="..\:/3/AM/AMov_TP_Reversi_Grupo35/app/src/main/res/menu/perfil_menu.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout-land/activity_creditos.xml" value="0.2" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_creditos.xml" value="0.2328125" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_esqueceupass.xml" value="0.2328125" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gamemode1e2.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_gamemode3.xml" value="0.33" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/andre/AndroidStudioProjects/AMov_TP_Reversi_Grupo35/app/src/main/res/layout/activity_perfil.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

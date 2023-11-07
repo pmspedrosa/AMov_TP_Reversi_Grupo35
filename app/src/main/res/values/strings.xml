@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">AMov_TP_Reversi_Grupo35</string>
+    <string name="reversi" translatable="false">Reversi</string>
+    <string name="modo_1">Modo 1</string>
+    <string name="modo_2">Modo 2</string>
+    <string name="modo_3">Modo 3</string>
+    <string name="perfil">Perfil</string>
+    <string name="creditos">Créditos</string>
+    <string name="regras">Regras</string>
+    <string name="preto">Preto</string>
+    <string name="branco">Branco</string>
+    <string name="azul">Azul</string>
+    <string name="dica">Dica</string>
+    <string name="bomba">Bomba</string>
+    <string name="troca">Troca</string>
+    <string name="nome">Nome de Utilizador:</string>
+    <string name="melhorPontuacao">Melhores Pontuações:</string>
+    <string name="novoJogo">Novo Jogo</string>
+    <string name="quermesmosair">Pretende mesmo sair?</string>
+    <string name="menuprincipal">Menu Principal</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="logout" translatable="false">LogOut</string>
+    <string name="logout_questao" >Deseja mesmo fazer o LogOut?</string>
+    <string name="registar" >Registar</string>
+    <string name="username" >Nome de Utilizador</string>
+    <string name="introduza_email" >Introduza o Email</string>
+    <string name="email" translatable="false">Email:</string>
+    <string name="introduza_password" >Introduza a palavra-passe</string>
+    <string name="password" >Palavra-passe:</string>
+    <string name="esqueceu_password" >Esqueceu-se da palavra-passe?</string>
+    <string name="ja_tem_login" >Já tem conta? Login</string>
+    <string name="ainda_nao_tem_conta" >Ainda não tem conta? Registar</string>
+    <string name="porfavor_escreva_username">Por favor introduza o nome de Utilizador.</string>
+    <string name="porfavor_escreva_email">Por favor introduza o email.</string>
+    <string name="porfavor_escreva_password">Por favor introduza a password.</string>
+    <string name="registado_sucesso">Registado com sucesso</string>
+    <string name="login_sucesso">Logado com sucesso</string>
+    <string name="ainda_nao_esta_logadp">Ainda não está logado!</string>
+    <string name="txt_esqueceupass">Escreva abaixo o seu email registado. Um email será enviado para redifinir a palavra-passe.</string>
+    <string name="enviar">Enviar</string>
+    <string name="enviarsucesso">Email enviado com sucesso!</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+
+
+
+
+
+    <string name="principio" >O jogo inicia com quatro peças posicionadas no centro do tabuleiro
+        em forma de um quadrado, duas com o lado branco virado para cima e duas com o lado
+        preto. O jogador que faz o primeiro movimento é escolhido aleatoriamente.
+    </string>
+    <string name="colocar_pecas" >Colocar Peças</string>
+    <string name="p2" >Para que um jogador possa colocar uma peça em uma casa do tabuleiro,
+        é preciso que haja pelo menos uma linha reta (horizontal, vertical ou diagonal) sem
+        espaços vazios entre a posição que o jogador deseja e uma outra peça da sua cor,
+        e que haja uma ou mais peças do oponente entre elas.
+    </string>
+    <string name="p3" >Se não existirem jogadas válidas o jogador tem de passar a vez.</string>
+    <string name="p4" >Uma vez que um jogador faça uma jogada válida, todas as peças do oponente
+        que estejam em uma linha reta (horizontal, vertical ou diagonal) entre a peça recém-colocada
+        e qualquer outra peça do jogador, são viradas e passam a ser da cor deste jogador.
+    </string>
+    <string name="jogadas_especiais" >Jogadas Especiais</string>
+    <string name="pjogadas_especiais" >Existem duas jogadas especiais que o jogador pode usar uma única vez durante a partida. Estas jogadas especiais são desbloqueadas após cada jogador realizar 4 jogadas.</string>
+    <!--- bomba -->
+    <string name="pbomba" >Um jogador pode usar a bomba numa peça sua para destruir todas as peças diretamente
+        adjacentes a ela.</string>
+    <!--- troca -->
+    <string name="ptroca" >Um jogador pode usar a troca, oferecendo duas peças suas ao adversário e de seguida
+        escolher uma peça do adversário para si.</string>
+
+
+
+    <string name="fim_partida" >Fim da Partida</string>
+    <string name="pfim" >O jogo termina quando nenhum dos jogadores puder fazer movimentos, ou seja, quando
+        todas as casas estiverem ocupadas ou todas as peças do tabuleiro estiverem com a mesma cor virada
+        para cima.
+        Se um jogador possuir mais peças que o adversário, ele vence.
+        Se ambos os jogadores tiverem a mesma quantidade de peças, o jogo termina em empate.
+    </string>
+
+    <!--- dicas -->
+    <string name="pdicas">Um jogador pode remover as Dicas se assim desejar clicando no botão da mesma.</string>
+    <string name="sem_jogada_possivel">Não há jogadas possíveis. \nPressione o botão para passar a vez.</string>
+    <string name="passar_vez">Passar a vez</string>
+
+
+
+    <string name="creditos_texto1" >Trabalho Realizado por:</string>
+    <string name="ISEC" translatable="false">Instituto Superior de Engenharia de Coimbra</string>
+    <string name="informatica" translatable="false">Licenciatura Engenharia Informática</string>
+    <string name="nome1" translatable="false">Pedro Miguel Sintra Pedrosa (2019136323)</string>
+    <string name="nome2" translatable="false">André Pessoa Coelho (2017012017)</string>
+    <string name="nome3" translatable="false">Cristóvão Alexandre Correia Pereira (2018015947)</string>
+
+    <string name="criar_jogo">Criar jogo</string>
+    <string name="juntar_jogo">Juntar a jogo</string>
+    <string name="msg_modo2">Jogo multi-jogador online  \n2 Jogadores</string>
+    <string name="msg_modo3">Jogo multi-jogador online  \n3 Jogadores</string>
+    <string name="msg_ip_address">Endereço IP: %s</string>
+    <string name="server_mode">Modo Servidor</string>
+    <string name="client_mode">Modo Cliente</string>
+    <string name="ask_ip">Endereço IP do Servidor</string>
+    <string name="button_connect">Conectar</string>
+    <string name="error_address">Endereço não reconhecido</string>
+    <string name="btn_emulator">Conectar a emulador</string>
+    <string name="button_cancel">Cancelar</string>
+
+
+
+
+
+</resources>

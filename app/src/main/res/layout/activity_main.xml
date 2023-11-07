@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/green"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/reversi"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:fontFamily="@font/baloo2_bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginVertical="5dp"
+            android:text="@string/modo_1"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_phone_white"
+            android:backgroundTint="@color/dark_green"
+            android:onClick="onClick_btnModo1"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginVertical="5dp"
+            android:text="@string/modo_2"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_two_phone_white"
+            android:backgroundTint="@color/dark_green"
+            android:onClick="onClick_btnModo2"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:text="@string/modo_3"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_three_phone_white"
+            android:backgroundTint="@color/dark_green"
+            android:onClick="onClick_btnModo3"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:text="@string/perfil"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_profile_white"
+            android:backgroundTint="@color/dark_green"
+            android:onClick="onClick_btnPerfil"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:text="@string/creditos"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:drawableEnd="@drawable/ic_info_white"
+            android:backgroundTint="@color/dark_green"
+            android:onClick="onClick_btnCreditos"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>
