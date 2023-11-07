@@ -76,5 +76,5 @@ This project is a mobile implementation of the Reversi/Othello game, developed a
 
 ## Authors
 - [pmspedrosa](https://github.com/pmspedrosa)
-- [APC15](https://github.com/APC15)https://github.com/APC15
-- [C4CP10](https://github.com/C4CP10)https://github.com/C4CP10
+- [APC15](https://github.com/APC15)
+- [C4CP10](https://github.com/C4CP10)
